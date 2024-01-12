@@ -1,0 +1,88 @@
+div.wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: left;
+    margin-left: 35px;
+    h1.sectionHeader {
+        color: #ff3a75f5;
+        font-size: 70px;
+    }
+
+    div.buttonGroup {
+      display: inline-flex;
+    }
+    p.sectionDescriptionPrivacy {
+        margin-top: -50px;
+        color: rgba(128, 128, 128, 0.739);
+        font-size: 19px;
+    }
+
+    p.highlighted {
+        color: #ff3a75f5;
+        font-weight: bold;
+        display: inline-flex;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    p.nextOne, p.lastOne {
+        display: inline-flex;
+        margin-left: 20px;
+        font-size: 16px;
+    } 
+
+    button.stepBtn {
+        display: inline-flex;
+        background: #ff3a75f5;
+        padding: 20px 15px;
+        border: 2px solid #ff3a75a4;
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 120px;
+        color: #ff3a75f5;
+        font-weight: bold;
+        transition: background 2s;
+        color: white;
+    }
+
+    button.logdeginn {
+        display: block;
+        background: #ff3a75f5;
+        padding: 20px 15px;
+        border: 2px solid #ff3a75a4;
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 120px;
+        color: #ff3a75f5;
+        font-weight: bold;
+        transition: background 2s;
+        color: white;
+        text-decoration: none;
+    }
+
+    button.logdeginn:hover {
+        background: #ec3c70f1;
+        color: white;
+        cursor: pointer;
+    }
+
+    h3.success-msg {
+        color: #ff3a75f5;
+    }
+    #btn-back {
+        margin-left: 15px;
+    }
+    button.stepBtn:nth-child(0) {
+        background: linear-gradient(to top, #e8edf1 0%, white 100%);
+        color: #ff3a75f5;
+    }
+    button.stepBtn:hover {
+        background: #ec3c70f1;
+        color: white;
+        cursor: pointer;
+    }
+    button.stepBtn:focus {
+        outline: none;
+    }
+}

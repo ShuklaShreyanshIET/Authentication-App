@@ -1,0 +1,105 @@
+$img: "../../assets/bg/priv-nav-btn.jpg";
+
+.drawerUpper a {
+    text-decoration: none;
+}
+
+.drawerUnder a {
+    text-decoration: none;
+}
+
+
+.drawerUpper div.MuiListItemText-root > span {
+    font-weight: bold;
+    text-decoration: none;
+    color: #e22b62f5;
+    font-size: 32px;
+}
+
+.drawerUpper::before {
+        content: '';
+        position: absolute;
+        filter: blur(2px);
+        left:0; top:0; right:0; bottom:0px;
+        z-index: -1;
+        pointer-events: none;
+      
+  }
+  
+.drawerUpper {
+    z-index: -2;
+    width: calc(100% + 20px);
+    transition: width 1s;
+    overflow: hidden;
+}
+
+.drawerUpper:hover {
+    width: calc(100% + 20px);
+}
+
+div.MuiBackdrop-root {
+    backdrop-filter: 5px;
+}
+
+div.MuiListItemText-root > span {
+    font-size: 18px;
+}   
+body > div.MuiDrawer-root{
+    background-color: rgba(0, 0, 0, 0.226);
+}
+#root > div > div > div > div.content-nav > div > div > a > button > span.MuiButton-label > svg {
+    transition: 0.35s all ease-in;
+}
+#root > div > div > div > div.content-nav > div > button { 
+    height: 100%;
+    width: 100%;
+}
+
+#root > div > div > div > div.content-nav > div > button:hover { 
+    background-color: rgba(0,0,0,0.1);
+}
+
+div.listFooterAddress p {
+    margin-top: -10px;
+}
+
+div.navbarMenu {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+div.navbarMenu a {
+    text-decoration: none;
+    color: white;
+}
+
+div.navbarMenu button {
+    height: 100%;
+}
+div.MuiPaper-root {
+ // Root for drawer
+ background-image: linear-gradient(to bottom, #e8edf1 0%, white 100%);
+ overflow: hidden;
+}
+
+div.MuiPaper-root a, p, span, h1, h2, h3, h4 {
+    color: rgb(37, 33, 33);
+}
+svg.activeNavExplore {
+    color: #ff3a75f5;
+    backdrop-filter: drop-shadow(4px 4px 10px blue);
+    transform: scale(1.1);
+
+}
+
+@media only screen and (max-width: 370px) { 
+    div.listFooterAddress h4, p{
+        margin: none;
+        padding: -5px -5px -5px -5px;
+    }
+
+}
+

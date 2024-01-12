@@ -1,0 +1,30 @@
+/*
+
+   ____      _              ____       _                            
+  / ___|___ | | ___  _ __  / ___|  ___| |__   ___ _ __ ___   ___    
+ | |   / _ \| |/ _ \| '__| \___ \ / __| '_ \ / _ \ '_ ` _ \ / _ \   
+ | |__| (_) | | (_) | |     ___) | (__| | | |  __/ | | | | |  __/   
+  \____\___/|_|\___/|_|    |____/ \___|_| |_|\___|_| |_| |_|\___|   
+  _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+ |_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+
+$selectedFont: ('Roboto');
+// Variations of UI-sets of gradients with color accents
+
+$light-ui: (
+  background-image: url("../../assets/bg/priv.jpg"),
+  background-repeat: no-repeat,
+  background-size: 100% 100%,
+  main: #fdfbfb,
+  font-family: $selectedFont,
+  primary-color: #49ff1c,
+  accent-color: rgb(33, 218, 33),
+);
+
+
+
+

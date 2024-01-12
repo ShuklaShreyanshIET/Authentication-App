@@ -1,0 +1,28 @@
+div.filter-explore-wrap {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 60px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+}
+
+h2.filter-explore-header {
+    color: #ff3a75f5;
+}
+
+div.slcbox {
+    display: flex;
+    flex-direction: column;
+}
+
+div.slcbox label {
+    color: #ff3a75c9;
+}
+
+div.filter-input-search{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}

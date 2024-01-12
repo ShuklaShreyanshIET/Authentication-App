@@ -1,0 +1,102 @@
+
+    div.picture {
+        display: inline-flex;
+        flex-direction: column;
+        margin-right: 35px;
+        width: 100%;
+        align-items: left;
+        
+    }
+    div.picture svg {
+        width: 600px;
+        height: 450px;
+        transition: width 0.5s;
+    }
+
+ 
+
+    @media only screen and (max-width: 1500px) { 
+
+        div.picture svg {
+            width: 420px;
+        }
+    
+    }
+    @media only screen and (max-width: 1180px) { 
+    
+
+        div.picture svg {
+            width: 450px;
+            height: 350px;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) { 
+    
+
+        div.picture svg {
+            width: 400px;
+            height: 350px;
+        }
+    }
+    @media only screen and (max-width: 1065px) { 
+    
+
+        div.picture svg {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    @media only screen and (max-width: 855px) { 
+        div.picture svg{
+            width: 130%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 700px) { 
+    
+        div.picture svg {
+            width: 100%;
+            height: 300px; 
+        
+        }
+
+
+        div.picture {
+            width: 100%;
+            justify-content: left;
+            align-items: left;  
+            overflow: overflow-x;
+            margin: 0 auto;
+        }
+
+
+    @media only screen and (max-width: 400px) { 
+       
+        div.picture svg {
+            width: 300px;
+            height: 300px;
+        }
+
+        div.picture {
+            margin-right: -40px;
+        }
+    }
+
+    @media only screen and (max-width: 350px) { 
+        
+        div.picture svg {
+            width: 250px;
+            height: 300px;
+        }
+
+        div.picture {
+            margin-right: -50px;
+        }
+    }
+
+
+    // Form CSS
+    }

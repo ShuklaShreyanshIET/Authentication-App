@@ -1,0 +1,371 @@
+div.styleContainer {
+    justify-content: space-evenly;
+    width: 100%;
+    div.masterContainer {
+        display: inline-flex;
+        flex-direction: row;
+        height: 100%;
+        border-radius: 9px;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -100px;
+        
+
+    }
+
+    div.login {
+        display: flex;
+        flex-direction: column;
+        margin: 1% 0;
+        width: 50%;
+        margin-right: 35px;
+        margin-left: 45px;
+    }
+
+    div.picture {
+        display: flex;
+        flex-direction: column;
+        margin-right: 35px;
+        width: 25%;
+        align-items: left;
+        
+    }
+    div.picture svg {
+        width: 600px;
+        height: 450px;
+        transition: width 0.5s;
+    }
+
+    .inputAvatar {
+        font-weight: bold;
+        color: #ff3a75f5;
+    }
+
+    button.formbutton {
+        background: #ff3a75f5;
+        padding: 20px 15px;
+        border: 2px solid #ff3a75a4;
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 120px;
+        color: white;
+        font-weight: bold;
+        transition: background 2s;
+        margin-right: 15px;
+        transition: background 1s;
+    }
+
+    button.formbutton:nth-child(1) {
+        background: linear-gradient(to top, white 0%, #e8edf1 100%);
+        color: #ff3a75a4;
+   
+    }
+
+    button.formbutton:hover {
+        background: #ec3c70f1;
+        color: white;
+        cursor: pointer;
+    }
+    button.formbutton:focus {
+        outline: none;
+    }
+    .inputAvatar label {
+        color: #ff004cf5;
+    }
+
+    div.field {
+        margin-top: 15px;
+    }
+    div.login input {
+        border: none;
+        padding-bottom: 3px;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.281);
+        background: transparent;
+        font-size: 16px;
+        color: #ff3a75f5;
+    }
+
+
+    h1.sectionHeader {
+        color: #ff3a75f5;
+        font-size: 70px;
+    }
+
+    p.sectionDescription {
+        margin-top: -20px;
+        color: rgba(128, 128, 128, 0.739);
+        font-size: 19px;
+    }
+    @media only screen and (max-width: 1560px) {
+        div.picture svg {
+            width: 500px;
+        }
+    }
+    @media only screen and (max-width: 1500px) { 
+
+        h1.sectionHeader {
+            color: #ff3a75f5;
+            font-size: 50px;
+        }
+
+        div.login {
+            width: 50%;
+        }
+
+        div.picture svg {
+            width: 420px;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1500px) { 
+
+        h1.sectionHeader {
+            color: #ff3a75f5;
+            font-size: 50px;
+        }
+
+        div.login {
+            width: 50%;
+        }
+
+        div.picture svg {
+            width: 420px;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1300px) { 
+        div.masterContainer {
+            flex-direction: column-reverse;
+            margin-top: -30px;
+            justify-content: center;
+            align-items: center;
+        }
+        div.picture svg {
+            width: 580px;
+            height: 430px;
+        }
+
+        div.login {
+            margin-left: 0;
+        }
+    }
+
+
+    @media only screen and (max-width: 1180px) { 
+    
+
+        div.picture svg {
+            width: 400px;
+            height: 300px;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) { 
+    
+
+        div.picture svg {
+            width: 400px;
+            height: 300px;
+        }
+    }
+    @media only screen and (max-width: 1065px) { 
+    
+
+        div.picture svg {
+            width: 390px;
+            height: 290px;
+        }
+    }
+
+    @media only screen and (max-width: 855px) { 
+        div.picture svg{
+            width: 425px;
+        }
+    
+    }
+    
+    @media only screen and (max-width: 700px) { 
+
+    
+        div.masterContainer {
+            display: flex;
+            flex-direction: column-reverse;
+            height: 100%;
+            margin: 0 auto;
+            width: 85%;
+            margin-top: 60px;
+        }
+
+        div.picture svg {
+            width: 100%;
+        }
+
+        div.login {
+            width: 90%;
+        }
+
+        div.login input {
+            width: 100%;
+        }
+        div.login p {
+            width: 100%;
+        }
+
+        div.picture {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        h1.sectionHeader {
+            width: 110%;
+        }
+    }
+
+    @media only screen and (max-width: 420px) { 
+        div.masterContainer {
+            width: 75%;
+            height: 100%;
+            margin-top: 0px;
+        }
+        div.picture svg {
+            width: 300px;
+            height: 300px;
+        }
+
+        div.picture {
+            margin-right: -40px;
+        }
+
+        h1.sectionHeader {
+            color: #ff3a75f5;
+            font-size: 40px;
+        }
+
+        p.sectionDescription {
+            margin-bottom: -10px;
+        }
+    }
+
+    @media only screen and (max-width: 370px) { 
+
+        div.masterContainer {
+            margin-top: 60px;
+        }
+
+        div.picture svg {
+            width: 250px;
+            height: 300px;
+        }
+
+        div.picture {
+            margin-right: -50px;
+        }
+
+        h1.sectionHeader {
+            color: #ff3a75f5;
+            font-size: 30px;
+        }
+    }
+
+
+    // Form CSS
+
+    form {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        > div {
+        position: relative;
+        }
+        input, textarea {
+        width: 100%;
+        border: 2px solid gray; 
+        background: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 8px 12px;
+        outline: 0;
+        &:valid {
+            // Hides the label
+            background: white; 
+        }
+
+        &:not(:valid) {
+            background: rgba(214, 214, 214, 0.342);
+        }
+        &:focus {
+            border-color: #ff3a75f5;
+        }
+        &:focus + label {
+            background: #ff3a75f5;
+            color: white;
+            font-size: 70%;
+            padding: 1px 6px;
+            z-index: 2;
+            text-transform: uppercase;
+        }
+        &::placeholder {
+            color: rgba(128, 128, 128, 0.411);
+        }
+        }
+        label {
+        transition: // not padding
+            background 0.2s,
+            color 0.2s,
+            top 0.2s,
+            bottom 0.2s,
+            right 0.2s,
+            left 0.2s;
+        position: absolute;
+        padding: 2px 29px;
+        }
+        textarea {
+        display: block;
+        resize: vertical;
+        }
+        }
+        
+        form.go-bottom {
+            input, textarea {
+           
+            }
+            label {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            }
+            input:focus, textarea:focus {
+            padding: 4px 6px 20px 6px; 
+            }
+            input:focus + label, textarea:focus + label {
+            top: 100%;
+            margin-top: -16px;
+            }
+        }
+        form.go-right {
+            label {
+            top: 2px;
+            right: 100%;
+            width: 100%;
+            margin-right: -100%;
+            bottom: 2px;
+            }
+            input:focus + label, textarea:focus + label {
+            right: 0;
+            margin-right: 0;
+            width: 40%;
+            padding-top: 5px;
+            }
+        }
+        @media only screen and (max-width: 370px) { 
+            div.masterContainer {
+                margin-top: 120px;
+            } 
+        }
+}

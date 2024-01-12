@@ -1,0 +1,32 @@
+                                                                                                                                                                                                
+       /*                                                                                                                                                                                         
+ /$$$$$$$$                     /$$                              
+| $$_____/                    | $$                              
+| $$       /$$   /$$  /$$$$$$ | $$  /$$$$$$   /$$$$$$   /$$$$$$ 
+| $$$$$   |  $$ /$$/ /$$__  $$| $$ /$$__  $$ /$$__  $$ /$$__  $$
+| $$__/    \  $$$$/ | $$  \ $$| $$| $$  \ $$| $$  \__/| $$$$$$$$
+| $$        >$$  $$ | $$  | $$| $$| $$  | $$| $$      | $$_____/
+| $$$$$$$$ /$$/\  $$| $$$$$$$/| $$|  $$$$$$/| $$      |  $$$$$$$
+|________/|__/  \__/| $$____/ |__/ \______/ |__/       \_______/
+                    | $$                                        
+                    | $$                                        
+                    |__/                                        
+                                                                                                                                                                                                                                                                                                                                                                                     
+*/
+div.exploreContent div {
+      display: flexbox;
+      flex-direction: column;
+}
+
+div.exploreContent {
+      padding: 0px 20px;
+      height: 120%;
+      justify-content: center;
+      align-items: center;
+}
+
+
+div.exploreContent div.filter-result {
+      display: flexbox;
+      
+}
